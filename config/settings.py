@@ -78,7 +78,8 @@ DATABASES = {
         'NAME': 'employee_tracker',
         'USER': 'postgres',
         'PASSWORD': 'postgres',  # Замените на ваш пароль
-        'HOST': 'localhost',
+        #'HOST': 'localhost',
+        'HOST': 'db',
         'PORT': '5432',
     }
 }
