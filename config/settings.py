@@ -77,9 +77,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'employee_tracker',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',  # Замените на ваш пароль
-        #'HOST': 'localhost',
-        'HOST': 'db',
+        'PASSWORD': 'postgres',  # При необходимости замените на ваш пароль
+        #'HOST': 'localhost', # Используем для запуска локального хоста
+        'HOST': 'db', # Хост доступен только внутри Docker-сети.
         'PORT': '5432',
     }
 }
